@@ -10,27 +10,17 @@
     background-image: url("../imgs/Background.png");
     background-size: 85%;
   }
-/* My Project section coded using CSS flex */
+/* My PROJECT section coded using CSS flex */
 
-  .Projects-html {
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*height:x;*/
-    margin: 0;
-    text-align: center;
-    background-image: url("../imgs/Background-Projects.png");
-    background-size: 100%;
-  }
 
-#menuBar {
+.menuBar {
 
   display: flex;
   flex-direction: row;
   margin: 0px 5%;
   align-items: center;
+
+ 
 
 }
 
@@ -42,10 +32,27 @@
 
 }
 
+
 .mainLogo {
 
   width: 25%;
 }
+
+
+  .Projects-html {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    background-image: url("../imgs/Background-Projects.png");
+    background-size: 100%;
+  }
+
+
+
 
 .projects {
   display: flex;
@@ -173,14 +180,6 @@
     position: relative;
   }
 
-  /*typography*/
-  
-  /*.aboutMe {
-    font-size: 60px;
-    font-weight: 300;
-    margin: 0px 0px;
-  }*/
-
   h2 {
     font-size: 60px;
     margin: 0px 0px;
@@ -212,4 +211,4 @@
       }    
     }
 
-    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+ 
